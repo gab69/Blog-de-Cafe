@@ -32,12 +32,11 @@
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
 
-
-
             </div>
 
         </div>
 
+      
 
 
 
@@ -48,24 +47,50 @@
         </div>
     </header>
 
-    <div class="contenedor-nosotros">
-        <div class="titulo-nosotros">Sobre Nosotros</div>
-        <div class="contenedor--nosotros">
-            <div class="imagen-nosotros">
-                <img src="/img/nosotros.jpg" alt="">
+   
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"> </div>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="ingrese su nombre" id="nombre">
             </div>
-            <div class="texto">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque harum cum maxime tempore sit
-                    necessitatibus cupiditate magni! Iusto architecto laboriosam repellat aliquam voluptates quasi
-                    ratione sit! Alias qui facere sunt.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque harum cum maxime tempore sit
-                    necessitatibus cupiditate magni! Iusto architecto laboriosam repellat aliquam voluptates quasi
-                    ratione sit! Alias qui facere sunt.</p>
+
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field" type="email" placeholder="ingrese su email" id="email">
             </div>
-        </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--texarea" id="mensaje" ></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+
+        </form>
 
 
 
-    </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
 
 
     <footer class="footer">
