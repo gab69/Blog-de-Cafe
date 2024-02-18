@@ -68,18 +68,23 @@ img{
 }
 
 /**header**/
-.webp .header{
+
+/* investigar el porque no se ejecuta bien ese codigo  */
+
+/* .webp .header{
     background-image: url("../img/banner.webp"); 
 }
 .no-webp .header{
     background-image: url("../img/banner.jpg");
-}
+} */
+
+
 .header{
     
     height: 60rem;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    background-image: url("../img/banner.jpg");
     background-position: center center;
 }
 
